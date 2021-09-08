@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+body {
+    margin: 0;
+    height: 0;
+    background-color: #faf5e2;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #faf5e2;
+}
+
+nav ul {
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    padding: 0 40px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ed5991;
+}
+
+nav a:hover {
+    color: #ed5991;
+}
+
+.banner {
+    height: 690px;
+    width: 1350px;
+    background-color: #ed4c91;
+    padding-top: 160px;
+}
+
+.banner h1 {
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+.banner .paragrafo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.banner input {
+    width: 230px;
+    height: 30px;
+    margin-left: 555px;
+    margin-bottom: 18px;
+}
+
+[type="email"] {
+    padding: 5px;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 12px;
+    background-color: #faf5e2;
+    color: #ed4c91;
+}
+
+::-webkit-input-placeholder {
+    color: #ed4c91;
+    text-align: center;
+}
+
+button {
+    height: 47px;
+    width: 122px;
+    background-color: #ed4c91;
+    border: 0;
+    color: white;
+}
+
+div button {
+    margin-left: 610px;
+    border-radius: 6px;
+}
+
+.box {
+    outline: 0;
+}
+
+.Desempenho {
+    color: #ed4c91;
+    padding: 70px 0 0 0;
+    margin: 0;
+    justify-content: flex-start;
+    background-color: #faf5e2;
+}
+
+.Desempenhoint {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: -60px;
+}
+
+.Desempenhoint div {
+    flex: 1;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Desempenho h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 5 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.Desempenho p {
+    padding: 0 0 50px 0;
+    margin: 0;
+    font-weight: bold;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.video {
+    background-color: #faf5e2;
+}
+
+.videoint {
+    margin-top: 40px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.videoint iframe {
+    width: 500px;
+    height: 250px;
+    ;
+}
+
+.preço {
+    background-color: #faf5e2;
+}
+
+.container {
+    display: flex;
+    padding-top: 82px;
+    padding-left: 144px;
+}
+
+.container div {
+    flex: 1;
+    font-size: 18px;
+    margin: 10px;
+    padding: 0px;
+    width: 340px;
+    height: 344px;
+    border: 1px solid #ed4c91;
+    text-align: center;
+    color: #ed4c91;
+    border-radius: 5px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.container h3 {
+    height: 56px;
+    background-color: #ed4c91;
+    margin: 0px;
+    padding-top: 8px;
+    color: white;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+}
+
+.container h4 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.container .btn {
+    margin: 0px;
+}
+
+footer {
+    padding-top: 86px;
+    background-color: #faf5e2;
+    ;
+}
+
+.rodape {
+    display: flex;
+    height: 80px;
+    width: 900px;
+    background-color: #ed4c91;
+    margin: auto;
+    border-radius: 2px;
+    font-family: "Varela Round", sans-serif;
+    flex-wrap: wrap;
+}
+
+.rodape ul {
+    font-size: 15px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding-left: 320px;
+}
+
+.rodape ul li {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.creditos {
+    font-size: 12px;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 308px;
+    color: white;
+    margin-top: 6px;
+}
+
+.creditos a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.copy {
+    margin-top: -10px;
+    padding-left: 360px;
+    font-family: "Varela Round", sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 550px) {
+    nav ul li {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav ul li {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+}
